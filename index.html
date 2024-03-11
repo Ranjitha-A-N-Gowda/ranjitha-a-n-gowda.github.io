@@ -8,12 +8,12 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="first">
-        <nav>
-            <div class="container-fluid" style="padding:10px;">
+        <div class="navbar" id="first">
+            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links hidden-on-mobile">
                 <div class="row" style="text-align: center;">
                     <div class="col-lg-2">
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me">About</a>
                     </div>
                     <div class="col-lg-2">
                         <a href="#education">Education</a>
@@ -31,14 +31,16 @@
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
+    
+
     <section id="about-me" class="section">
-    <header>
-            <img src="./image/photo.jpg" alt="Your Name" id="profile">
-            <h1>Hello, I'm Ranjitha A N</h1>
-            <p>Engineering Student | Open to work</p>
+    <header >
+                    <img src="./image/photo.jpg" alt="Your Name" id="profile">
+                    <h1>Hello, I'm Ranjitha A N</h1>
+                    <p>Engineering Student | Open to work</p>
+           
     </header>
 
         <div class="about-me" style="padding-top:10px;">
@@ -90,28 +92,29 @@
     </div>
     </section>
     <section id="certificate" class="section">
-    <div class="certificate">
-        <h1>CERTIFICATES</h1>
-    </div>
-    <div class="container-fluid">
-        <div class="row" style="text-align:center;">
-            <div class="col-lg-6">
-            <img src="./image/dsa.png" alt="certificate">
+        <div class="certificate">
+            <h1>CERTIFICATES</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row" style="text-align:center;">
+                <div class="col-lg-6 col-md-12">
+                    <img src="./image/dsa.png" alt="certificate" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="./image/graph.png" alt="certificate" class="img-fluid">
+                </div>
             </div>
-            <div class="col-lg-6">
-            <img src="./image/graph.png" alt="certificate">
+            <div class="row" style="text-align:center;">
+                <div class="col-lg-6 col-md-12">
+                    <img src="./image/python.png" alt="certificate" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="./image/sql.png" alt="certificate" class="img-fluid">
+                </div>
             </div>
         </div>
-        <div class="row" style="text-align:center;">
-            <div class="col-lg-6">
-            <img src="./image/python.png" alt="certificate">
-            </div>
-            <div class="col-lg-6">
-            <img src="./image/sql.png" alt="certificate">
-            </div>
-        </div>
-    </div>
     </section>
+    
     <section id="projects" class="section">
     <div class="projects">
         <h1>PROJECTS</h1>
@@ -149,6 +152,7 @@
             <p>&copy; 2024 Ranjitha A N. All rights reserved.</p>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
+
